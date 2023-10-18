@@ -9,13 +9,13 @@
  * Cambia el título de la página a rojo usando un estilo en línea
  */
 
-document.querySelector('#title').style.color = 'red';
+document.querySelector('h1').style.color = 'red';
 
 /**
  * Cambia el tamaño del título de la página a 48px usando un estilo en línea
  */
 
-document.querySelector('#title').style['font-size'] = '48px'
+document.querySelector('h1').style['font-size'] = '48px'
 
 /**
  * Muestra por console.log el texto de la caja 2
@@ -45,4 +45,4 @@ document.getElementById('ultimo').classList.remove('estilo-3')
  
  */
 
-document.querySelector('#penultimo').classList.add('ocultar')
+document.querySelector('p:nth-of-type(6)').classList.add('ocultar')
